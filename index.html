@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebook Grátis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/function.js"></script>
+
+<!-- <a href="https://www.flaticon.com/br/icones-gratis/piscina" title="piscina ícones">Piscina ícones criados por Vector Squad - Flaticon</a> -->
+
+<!--<a href="https://www.flaticon.com/br/icones-gratis/pesquisa" title="pesquisa ícones">Pesquisa ícones criados por Freepik - Flaticon</a>-->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="inicio.html" target="_blank">Início</a>
+            <a href="#ebook">Baixar Ebook</a>
+            <a href="fale.html" target="_blank">Fale Conosco</a>
+        </nav>
+
+    </header>
+    <h4 id="indicacao"></h4>
+    <main>
+        <section id="intro">
+            <h1>Ebook - Manutenção de Piscinas</h1><br>
+            <p>Neste Ebook gratuito, você vai aprender todos permenores de como realizar <br> manutenção em uma piscina, para manter a sua <br> 100% cristalina. Aproveite.</p><br>
+            
+            <div id="imagem">
+                <img src="img/natacao.png" alt="istragram" width="300px">
+            </div><br>
+            <p>No final do Ebook, você vai ganhar uma SURPRESA, então fique atento <br> aos detalhes ao longo do livro.</p>
+        </section>
+
+        <aside>
+            <form action="method" id="ebook">
+                <h2>Faça o download grátis</h2><br>
+                <p>Preencha o formulário abaixo para efetuar download:*</p><br>
+
+                <label for="name" >Nome:* <br><input type="text" class="encher" id="nome" required></label><br>
+
+                <label for="email">Email:* <br><input type="text" class="encher" id="email" placeholder="seu@email.com"></label><br>
+
+                <label for="sexo">Sexo: 
+                    <select name="sexo" id="sexo">
+                        <option value="fem">Feminino</option>
+                        <option value="masc">Masculino</option>
+                        <option value="outro">Outro</option>
+                        <option value="nInformar">Prefiro não informar</option>
+                    </select>
+            </label><br>
+
+            <label for="objetivo">Qual seu objetivo: 
+                <select name="obje" id="obje">
+                    <option value="aprender">Aprender</option>
+                    <option value="trabalhar">Trabalhar</option>
+                    <option value="maisConhecimento">Mais conhecimento</option>
+                </select>
+            </label><br>
+
+            <label for="curosInciar">Você deseja iniciar um curso sobre isso?<br>
+                <input type="checkbox" id="sim">Sim <br>
+                <input type="checkbox" id="nao">Não <br>
+                <input type="checkbox" id="talvez">Talvez
+            </label><br>
+
+            <label for="conta"> 27 + 53 ?*<br>
+                <input type="number" id="conta" required>
+            </label><input type="button" value="Somar" onclick="somar()"><br>
+            <h3 id="msgAcerto"></h3>
+
+            <input type="button" value="Baixar Ebook" onclick="baixarEbook()" id="button">
+
+            <p>Se você tem interesse em fazer o curso de Manutenção de Piscinas, <a href="#">clique aqui.</a></p>
+
+            </form>
+        </aside>
+    </main>
+</body>
+</html>
