@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #13678A;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: #45C4B0;
+    padding: 15px;
+}
+
+main{
+    margin-top: 50px;
+    margin: 100px;
+    
+}
+
+h2{
+    text-align: center;
+} 
+
+nav > a{
+    padding: 10px;
+    color: #012030;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: #012030;
+    color: rgb(255, 247, 247);
+}
+.busca{
+    float: right;
+    border-radius: 5px;
+    border-style: solid;
+    margin-left: 10px;
+
+}
+
+#intro{
+    float: left;
+    text-align: center;
+}
+
+aside{
+    float: right;
+    background-color: #45C4B0;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+label, input, select{
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    
+    
+}
+input{
+    border-style: solid;
+}
+.encher{
+    width: 250px;
+}
+#button{
+    background-color: rgb(248, 248, 36);
+    width: 100%;
+    border-style: solid;
+}
+h3{
+    text-align: center;
+    color: rgb(194, 33, 33);
+    margin-bottom: 5px;
+}
+h4{
+    text-align: right;
+    color: black;
+}
